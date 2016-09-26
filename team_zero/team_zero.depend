@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1474912602 source:f:\software design and quality\git\lab1_part2\team_zero\main.cpp
+	<iostream>
+	<math.h>
+
