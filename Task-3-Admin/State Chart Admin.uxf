@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>210</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Ready.
+menu login</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>370</x>
+      <y>140</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>290</x>
+      <y>350</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Historical data
+--
+Show history
+--
+Download to USB
+--
+Clear data
+--
+Return
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>150</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>160</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Press button x
+Check if admin
+lt=-&gt;</panel_attributes>
+    <additional_attributes>140.0;50.0;100.0;20.0;10.0;20.0;10.0;90.0;80.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>240</y>
+      <w>110</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Admin := true
+lt=-&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;40.0;10.0;150.0;70.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>160</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Login Admin
+lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;20.0;140.0;20.0;140.0;100.0;90.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>130</y>
+      <w>370</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>If y or z has been pressed ignore
+lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;80.0;80.0;10.0;140.0;10.0;160.0;70.0;160.0;150.0;80.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>90</y>
+      <w>370</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>If y or z has been pressed ignore
+lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;60.0;150.0;10.0;140.0;350.0;110.0;390.0;50.0;370.0</additional_attributes>
+  </element>
+</diagram>
