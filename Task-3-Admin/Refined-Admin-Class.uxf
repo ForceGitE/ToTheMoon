@@ -4,7 +4,7 @@
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>720</x>
+      <x>750</x>
       <y>50</y>
       <w>210</w>
       <h>190</h>
@@ -16,6 +16,7 @@
 TimeDone();
 Upload();
 getData()
+RealTime();
 
 </panel_attributes>
     <additional_attributes/>
@@ -23,7 +24,7 @@ getData()
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>730</x>
+      <x>760</x>
       <y>460</y>
       <w>210</w>
       <h>190</h>
@@ -43,7 +44,7 @@ timeOut()
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>400</x>
+      <x>430</x>
       <y>250</y>
       <w>210</w>
       <h>190</h>
@@ -60,7 +61,7 @@ Display_Choice();</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>80</x>
+      <x>110</x>
       <y>50</y>
       <w>210</w>
       <h>190</h>
@@ -78,7 +79,7 @@ Push(Integer);</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>820</x>
+      <x>850</x>
       <y>210</y>
       <w>50</w>
       <h>270</h>
@@ -89,7 +90,7 @@ Push(Integer);</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>260</x>
+      <x>290</x>
       <y>390</y>
       <w>160</w>
       <h>130</h>
@@ -100,7 +101,7 @@ Push(Integer);</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>580</x>
+      <x>610</x>
       <y>150</y>
       <w>160</w>
       <h>150</h>
@@ -111,7 +112,7 @@ Push(Integer);</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>260</x>
+      <x>290</x>
       <y>140</y>
       <w>160</w>
       <h>180</h>
@@ -122,7 +123,7 @@ Push(Integer);</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>580</x>
+      <x>610</x>
       <y>380</y>
       <w>170</w>
       <h>140</h>
@@ -133,7 +134,7 @@ Push(Integer);</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>80</x>
+      <x>110</x>
       <y>450</y>
       <w>210</w>
       <h>190</h>
@@ -143,7 +144,19 @@ Push(Integer);</panel_attributes>
 Choice Interger
 --
 Display_Data();
-Choice(Interger);</panel_attributes>
+Choice(Interger);
+DisplayMenu();</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>290</x>
+      <y>100</y>
+      <w>480</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>460;30;30;30</additional_attributes>
   </element>
 </diagram>
